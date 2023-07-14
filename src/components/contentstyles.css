@@ -1,0 +1,112 @@
+.content-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1200px;
+  margin: auto;
+  text-align: start;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+}
+.content-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://previews.123rf.com/images/opolja/opolja1512/opolja151200012/50162938-business-woman-working-on-laptop-computer-at-office.jpg")
+    no-repeat;
+  opacity: 0.8;
+  z-index: -99;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding: 0;
+}
+h2 {
+  margin-bottom: 30px;
+  position: relative;
+  top: 20px;
+  right: -100px;
+  font-size: 40px;
+}
+.content h1 {
+  position: relative;
+  top: 20px;
+  right: -100px;
+  font-size: 75px;
+  line-height: 5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.content p {
+  position: relative;
+  top: 20px;
+  right: -100px;
+  font-size: 20px;
+}
+.form-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 630px;
+  background-color: #222;
+  color: #fff;
+  top: 300px;
+  left: 720px;
+  text-align: center;
+}
+form h1 {
+  font-family: sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 1.9rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+form p {
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+input {
+  width: 300px;
+  padding: 10px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.btn-schedule {
+  text-align: center;
+  border: none;
+  background-color: rgba(0, 194, 197, 1);
+  color: #fff;
+  height: 46px;
+  width: 300px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.benefits {
+  position: relative;
+  top: -80px;
+  right: -70px;
+}
+.benefit-1,
+.benefit-2,
+.benefit-3 {
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+i {
+  color: rgba(0, 194, 197, 1);
+}
